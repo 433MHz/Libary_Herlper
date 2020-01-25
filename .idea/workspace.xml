@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2cd2ef3-11b1-4e84-9ce0-1f23fe0a06ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="a2cd2ef3-11b1-4e84-9ce0-1f23fe0a06ab" name="Default Changelist" comment="Changed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addUser.html" beforeDir="false" afterPath="$PROJECT_DIR$/addUser.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editUser.html" beforeDir="false" afterPath="$PROJECT_DIR$/editUser.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainmenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainmenu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/removeUser.html" beforeDir="false" afterPath="$PROJECT_DIR$/removeUser.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579951428583</updated>
       <workItem from="1579951431457" duration="3984000" />
-      <workItem from="1579962197844" duration="8675000" />
+      <workItem from="1579962197844" duration="11011000" />
     </task>
     <servers />
   </component>
