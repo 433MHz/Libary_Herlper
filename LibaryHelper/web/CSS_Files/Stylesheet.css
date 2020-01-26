@@ -69,6 +69,7 @@ body{
     border-radius: 8px;
     font-size: 35px;
     text-align: center;
+    font-family: 'Oswald', sans-serif;
 }
 
 .menuOptions:hover{

@@ -1,10 +1,11 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!doctype html>
 
 <html lang="pl">
 <head>
     <meta charset="utf-8">
     <title>Edytuj Użytkownika</title>
-    <link rel="stylesheet" type="text/css" href="Stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="CSS_Files/Stylesheet.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap&subset=latin-ext" rel="stylesheet">
 </head>
 

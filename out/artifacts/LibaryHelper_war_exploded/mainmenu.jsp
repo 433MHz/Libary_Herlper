@@ -15,7 +15,7 @@
     <div class="leftRightSides" style="float: left; width: 30%">
         <form method="post" action="interfaceNavigation">
             <input type="hidden" value="1" name="MainMenuInterfaceButtons">
-            <input type="submit" class="menuOptions" value="Dodaj użytkownika">
+            <input type="submit" class="menuOptions" value="Dodaj użytkownika" style="font-family: 'Oswald', sans-serif">
         </form>
 
         <form method="post" action="interfaceNavigation">
