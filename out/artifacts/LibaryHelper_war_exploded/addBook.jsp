@@ -12,15 +12,50 @@
 <body>
 <div id = container>
     <div class="leftRightSides" style="float: left; width: 30%">
-        <div class="menuOptions">Dodaj użytkownika</div>
-        <div class="menuOptions">Usuń istniejącego użytkownika</div>
-        <div class="menuOptions">Edytuj istniejącego użytkownika</div>
-        <div class="menuOptions">Sprawdź użytkowników</div>
-        <div class="menuOptions">Sprawdź książki</div>
-        <div class="menuOptions">Zarządzaj książkami</div>
-        <div class="menuOptions">Dodaj książkę</div>
-        <div class="menuOptions">Usuń książkę</div>
-        <div class="menuOptions">Wyloguj</div>
+        <form method="post" action="interfaceNavigation">
+            <input type="hidden" value="1" name="MainMenuInterfaceButtons">
+            <input type="submit" class="menuOptions" value="Dodaj użytkownika">
+        </form>
+
+        <form method="post" action="interfaceNavigation">
+            <input type="hidden" value="2" name="MainMenuInterfaceButtons">
+            <input type="submit" class="menuOptions" value="Usuń istniejącego użytkownika">
+        </form>
+
+        <form method="post" action="interfaceNavigation">
+            <input type="hidden" value="3" name="MainMenuInterfaceButtons">
+            <input type="submit" class="menuOptions" value="Edytuj istniejącego użytkownika">
+        </form>
+
+        <form method="post" action="interfaceNavigation">
+            <input type="hidden" value="4" name="MainMenuInterfaceButtons">
+            <input type="submit" class="menuOptions" value="Sprawdź użytkowników">
+        </form>
+
+        <form method="post" action="interfaceNavigation">
+            <input type="hidden" value="5" name="MainMenuInterfaceButtons">
+            <input type="submit" class="menuOptions" value="Sprawdź książki">
+        </form>
+
+        <form method="post" action="interfaceNavigation">
+            <input type="hidden" value="6" name="MainMenuInterfaceButtons">
+            <input type="submit" class="menuOptions" value="Zarządzaj książkami">
+        </form>
+
+        <form method="post" action="interfaceNavigation">
+            <input type="hidden" value="7" name="MainMenuInterfaceButtons">
+            <input type="submit" class="menuOptions" value="Dodaj książkę">
+        </form>
+
+        <form method="post" action="interfaceNavigation">
+            <input type="hidden" value="8" name="MainMenuInterfaceButtons">
+            <input type="submit" class="menuOptions" value="Usuń książkę">
+        </form>
+
+        <form method="post" action="interfaceNavigation">
+            <input type="hidden" value="9" name="MainMenuInterfaceButtons">
+            <input type="submit" class="menuOptions" value="Wyloguj">
+        </form>
     </div>
     <div class="leftRightSides" style="float: left; width: 60%; padding: 1%">
         <h1>Dodaj książkę</h1>
