@@ -62,7 +62,7 @@
         <div style="font-size: 25px; margin-right: 5%">Wpisz ID użytkownika</div>
         <input type="text" placeholder="ID" class="MainMenuTexts" style="margin-right: 5%"><br/><br/>
         <div style="font-size: 25px">Zaznacz checkboxa aby wskazać pola które mają zostać nadpisane</div>
-        <input type="text" placeholder="Nowe imie" class="MainMenuTexts"><input type="checkbox" style="transform: scale(3); margin-left: 3%"><br/>
+        <input type="text" placeholder="Nowe imie" class="MainMenuTexts"><input type="checkbox" style="transform: scale(3); margin-left: 3%" value="asd"><br/>
         <input type="text" placeholder="Nowe nazwisko" class="MainMenuTexts"><input type="checkbox" style="transform: scale(3); margin-left: 3%"><br/>
         <input type="text" placeholder="Nowy numer pesel" class="MainMenuTexts"><input type="checkbox" style="transform: scale(3); margin-left: 3%"><br/>
         <input type="submit" class="MainMenuTexts" style="cursor: pointer; margin-right: 5%" value="Zatwierdź zmiany">

@@ -60,9 +60,11 @@
     <div class="leftRightSides" style="float: left; width: 60%; padding: 1%">
         <h1>Usuń użytkownika</h1>
         <div style="font-size: 25px">Wpisz ID albo numer pesel użytkownika</div>
-        <input type="text" placeholder="ID" class="MainMenuTexts"><br/>
-        <input type="text" placeholder="Numer pesel" class="MainMenuTexts"><br/>
+        <form action="/RemoveUserInterfaceServlet" method="post">
+        <input type="text" placeholder="ID" class="MainMenuTexts" name="UserId"><br/>
+        <input type="text" placeholder="Numer pesel" class="MainMenuTexts" name="UserPeselNumber"><br/>
         <input type="submit" class="MainMenuTexts" style="cursor: pointer" value="Usuń użytkownika">
+        </form>
     </div>
     <div style="clear: both"/>
 </div>
