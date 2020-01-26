@@ -60,12 +60,17 @@
     <div class="leftRightSides" style="float: left; width: 60%; padding: 1%">
         <h1 style="margin-right: 5%">Edytuj użytkownika</h1>
         <div style="font-size: 25px; margin-right: 5%">Wpisz ID użytkownika</div>
-        <input type="text" placeholder="ID" class="MainMenuTexts" style="margin-right: 5%"><br/><br/>
+        <form action="EditUserInterfaceServlet" method="post">
+        <input type="text" placeholder="ID" class="MainMenuTexts" style="margin-right: 5%" name="UserId"><br/><br/>
         <div style="font-size: 25px">Zaznacz checkboxa aby wskazać pola które mają zostać nadpisane</div>
-        <input type="text" placeholder="Nowe imie" class="MainMenuTexts"><input type="checkbox" style="transform: scale(3); margin-left: 3%"><br/>
-        <input type="text" placeholder="Nowe nazwisko" class="MainMenuTexts"><input type="checkbox" style="transform: scale(3); margin-left: 3%"><br/>
-        <input type="text" placeholder="Nowy numer pesel" class="MainMenuTexts"><input type="checkbox" style="transform: scale(3); margin-left: 3%"><br/>
+        <input type="text" placeholder="Nowe imie" class="MainMenuTexts" name="UserName">
+            <input type="checkbox" style="transform: scale(3); margin-left: 3%" name="UserNameCheckbox"><br/>
+        <input type="text" placeholder="Nowe nazwisko" class="MainMenuTexts" name="UserLastName">
+            <input type="checkbox" style="transform: scale(3); margin-left: 3%" name="UserLastNameCheckbox"><br/>
+        <input type="text" placeholder="Nowy numer pesel" class="MainMenuTexts" name="UserPeselNumber">
+            <input type="checkbox" style="transform: scale(3); margin-left: 3%" name="UserPeselNumberCheckbox"><br/>
         <input type="submit" class="MainMenuTexts" style="cursor: pointer; margin-right: 5%" value="Zatwierdź zmiany">
+        </form>
     </div>
     <div style="clear: both"/>
 </div>

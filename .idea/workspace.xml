@@ -8,13 +8,12 @@
   <component name="ChangeListManager">
     <list default="true" id="a2cd2ef3-11b1-4e84-9ce0-1f23fe0a06ab" name="Default Changelist" comment="Changed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibaryHelper/web/CSS_Files/Stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryHelper/web/CSS_Files/Stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibaryHelper/web/addUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryHelper/web/addUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibaryHelper/web/removeUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryHelper/web/removeUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/CSS_Files/Stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/CSS_Files/Stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/addUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/addUser.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibaryHelper/src/main/java/Servlets_Interface/EditBooksInterfaceServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryHelper/src/main/java/Servlets_Interface/EditBooksInterfaceServlet_BorrowBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibaryHelper/web/addBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryHelper/web/addBook.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibaryHelper/web/editBooks.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryHelper/web/editBooks.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibaryHelper/web/editUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryHelper/web/editUser.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibaryHelper/web/removeBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryHelper/web/removeBook.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/editUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/editUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/removeUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/removeUser.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -244,7 +243,8 @@
       <updated>1579951428583</updated>
       <workItem from="1579951431457" duration="3984000" />
       <workItem from="1579962197844" duration="11011000" />
-      <workItem from="1580023036480" duration="14421000" />
+      <workItem from="1580023036480" duration="14540000" />
+      <workItem from="1580044061850" duration="916000" />
     </task>
     <servers />
   </component>

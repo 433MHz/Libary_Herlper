@@ -59,13 +59,15 @@
     </div>
     <div class="leftRightSides" style="float: left; width: 60%; padding: 1%">
         <h1>Dodaj książkę</h1>
-        <input type="text" class="MainMenuTexts" placeholder="Tytuł"><br/>
-        <input type="text" class="MainMenuTexts" placeholder="Imie autora"><br/>
-        <input type="text" class="MainMenuTexts" placeholder="Nazwisko autora"><br/>
-        <input type="text" class="MainMenuTexts" placeholder="Wydawnictwo"><br/>
-        <input type="text" class="MainMenuTexts" placeholder="Rok wydania"><br/>
-        <input type="text" class="MainMenuTexts" placeholder="Numer ISBN"><br/>
+        <form action="AddBookInterfaceServlet" method="post">
+        <input type="text" class="MainMenuTexts" placeholder="Tytuł" name="BookTitle"><br/>
+        <input type="text" class="MainMenuTexts" placeholder="Imie autora" name="BookAuthorFirstname"><br/>
+        <input type="text" class="MainMenuTexts" placeholder="Nazwisko autora" name="BookAuthorLastname"><br/>
+        <input type="text" class="MainMenuTexts" placeholder="Wydawnictwo" name="BookPrinter"><br/>
+        <input type="text" class="MainMenuTexts" placeholder="Rok wydania" name="PublishYear"><br/>
+        <input type="text" class="MainMenuTexts" placeholder="Numer ISBN" name="isbnNumber"><br/>
         <input type="submit" class="MainMenuTexts" value="Dodaj">
+        </form>
 
     </div>
     <div style="clear: both"/>
