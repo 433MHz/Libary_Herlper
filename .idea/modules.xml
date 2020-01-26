@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/LibaryHelper/LibaryHelper.iml" filepath="$PROJECT_DIR$/LibaryHelper/LibaryHelper.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/webAplikacja.iml" filepath="$PROJECT_DIR$/.idea/webAplikacja.iml" />
     </modules>
   </component>
