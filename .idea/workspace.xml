@@ -7,13 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2cd2ef3-11b1-4e84-9ce0-1f23fe0a06ab" name="Default Changelist" comment="Changed">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibaryHelper/src/main/java/Servlets_Interface/EditBooksInterfaceServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryHelper/src/main/java/Servlets_Interface/EditBooksInterfaceServlet_BorrowBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibaryHelper/web/addBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryHelper/web/addBook.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibaryHelper/web/editBooks.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryHelper/web/editBooks.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibaryHelper/web/editUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryHelper/web/editUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibaryHelper/web/removeBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryHelper/web/removeBook.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibaryHelper/LibaryHelper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryHelper/LibaryHelper.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibaryHelper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryHelper/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibaryHelper/target/classes/Servlets_Interface/EditBooksInterfaceServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/WEB-INF/classes/Servlets_Interface/EditBooksInterfaceServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/addBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/addBook.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/editBooks.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/editBooks.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/editUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/editUser.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/removeBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/removeBook.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,6 +74,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Zapisywanie-danych-w-SQL-PRZYKLAD-master/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -244,7 +248,8 @@
       <workItem from="1579951431457" duration="3984000" />
       <workItem from="1579962197844" duration="11011000" />
       <workItem from="1580023036480" duration="14540000" />
-      <workItem from="1580044061850" duration="916000" />
+      <workItem from="1580044061850" duration="1991000" />
+      <workItem from="1580205857675" duration="5736000" />
     </task>
     <servers />
   </component>

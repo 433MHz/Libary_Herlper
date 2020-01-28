@@ -60,8 +60,10 @@
     </div>
     <div class="leftRightSides" style="float: left; width: 60%">
         <h1>Usuń książkę</h1>
-        <input type="text" class="MainMenuTexts" placeholder="ID książki"><br/>
+        <form action="/RemoveBookInterfaceServlet" method="post">
+        <input type="text" class="MainMenuTexts" placeholder="ID książki" name="BookID"><br/>
         <input type="submit" class="MainMenuTexts" value="Usuń">
+        </form>
     </div>
     <div style="clear: both"/>
 </div>

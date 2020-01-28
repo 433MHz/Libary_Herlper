@@ -61,12 +61,16 @@
     <div class="leftRightSides" style="float: left; width: 60%">
         <h1>Zarządzaj książkami</h1>
         <h2>Wypożyczenie książki</h2>
-        <input type="text" class="MainMenuTexts" placeholder="id użytkownika"><br/>
-        <input type="text"class="MainMenuTexts" placeholder="id książki"><br/>
+        <form action="EditBooksInterfaceServlet_BorrowBook" method="post">
+        <input type="text" class="MainMenuTexts" placeholder="id użytkownika" name="UserID"><br/>
+        <input type="text"class="MainMenuTexts" placeholder="id książki" name="BookID"><br/>
         <input type="submit" class="MainMenuTexts" value="Zatwierdź"><br/><br/><br/>
+        </form>
         <h2>Zwrot książki</h2>
-        <input type="text" class="MainMenuTexts" placeholder="id książki"><br/>
+        <form action="EditBooksInterfaceServlet_BackBook" method="post">
+        <input type="text" class="MainMenuTexts" placeholder="id książki" name="BookID"><br/>
         <input type="submit" class="MainMenuTexts" value="Zatwierdź"><br/>
+        </form>
 
     </div>
     <div style="clear: both"/>
