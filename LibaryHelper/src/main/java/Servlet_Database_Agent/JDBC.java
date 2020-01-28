@@ -16,27 +16,38 @@ public class JDBC {
     final private static String username = "root";
     final private static String password = "";
     private static Connection connection;
+    private static PreparedStatement preparedStatement;
     private static Statement statement;
     private static ResultSet resultSet;
-    private static PreparedStatement preparedStatement;
 
-
-    private static void StartConnection() throws Exception{
-        Class.forName("com.mysql.jdbc.Driver");
+    private static void StartConnection() throws SQLException, ClassNotFoundException {
+        Class.forName("com.mysql.cj.jdbc.Driver");
         connection = DriverManager.getConnection(url, username, password);
-        statement = connection.createStatement();
     }
 
     private static void CloseConnection() throws Exception{
-        resultSet.close();
-        statement.close();
-        preparedStatement.close();
-        connection.close();
+        if(resultSet != null && resultSet.isClosed() == false){
+            resultSet.close();
+        }
+        if(preparedStatement != null && preparedStatement.isClosed() == false) {
+            preparedStatement.close();
+        }
+        if(statement != null && statement.isClosed() == false) {
+            statement.close();
+        }
+        if(connection != null && connection.isClosed() == false) {
+            connection.close();
+        }
+
     }
+
+
+
 
     protected static void executeUpdate(String querry) throws Exception{        //Adding values to database
         StartConnection();
-        statement.executeUpdate(querry);
+        preparedStatement = connection.prepareStatement(querry);
+        preparedStatement.executeUpdate();
         CloseConnection();
     }
 

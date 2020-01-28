@@ -1,3 +1,5 @@
+<%@ page import="Servlet_Database_Agent.AddBook_JDBC" %>
+<%@ page import="Servlets_Interface.AddBookInterfaceServlet" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!doctype html>
 
@@ -68,6 +70,13 @@
         <input type="text" class="MainMenuTexts" placeholder="Numer ISBN" name="isbnNumber"><br/>
         <input type="submit" class="MainMenuTexts" value="Dodaj">
         </form>
+        <div style="font-size: 25px; color: red">
+        <%
+            if(request.getAttribute("NULL_info") != null) {
+                out.println(request.getAttribute("NULL_info"));
+            }
+        %>
+        </div>
 
     </div>
     <div style="clear: both"/>

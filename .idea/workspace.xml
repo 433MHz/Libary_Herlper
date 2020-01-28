@@ -8,15 +8,19 @@
   <component name="ChangeListManager">
     <list default="true" id="a2cd2ef3-11b1-4e84-9ce0-1f23fe0a06ab" name="Default Changelist" comment="Changed">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webAplikacja.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webAplikacja.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LibaryHelper/LibaryHelper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryHelper/LibaryHelper.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LibaryHelper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryHelper/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibaryHelper/target/classes/Servlets_Interface/EditBooksInterfaceServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/WEB-INF/classes/Servlets_Interface/EditBooksInterfaceServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibaryHelper/src/main/java/Servlet_Database_Agent/AddBook_JDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryHelper/src/main/java/Servlet_Database_Agent/AddBook_JDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibaryHelper/src/main/java/Servlet_Database_Agent/JDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryHelper/src/main/java/Servlet_Database_Agent/JDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibaryHelper/src/main/java/Servlets_Interface/AddBookInterfaceServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryHelper/src/main/java/Servlets_Interface/AddBookInterfaceServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibaryHelper/target/classes/META-INF/LibaryHelper.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibaryHelper/target/classes/Servlets_Interface/AddBookInterfaceServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryHelper/target/classes/Servlets_Interface/AddBookInterfaceServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibaryHelper/web/addBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryHelper/web/addBook.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/WEB-INF/classes/Servlets_Interface/AddBookInterfaceServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/WEB-INF/classes/Servlets_Interface/AddBookInterfaceServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/addBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/addBook.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/editBooks.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/editBooks.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/editUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/editUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/removeBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/removeBook.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +39,23 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="baza_danych_biblioteka@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="baza_danych_biblioteka@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="baza_danych_biblioteka@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="baza_danych_biblioteka: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FavoritesManager">
@@ -50,6 +70,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Krystian\Desktop\webAplikacja\.idea" />
+      </set>
+    </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -70,6 +97,7 @@
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -249,7 +277,9 @@
       <workItem from="1579962197844" duration="11011000" />
       <workItem from="1580023036480" duration="14540000" />
       <workItem from="1580044061850" duration="1991000" />
-      <workItem from="1580205857675" duration="5736000" />
+      <workItem from="1580205857675" duration="8870000" />
+      <workItem from="1580220028348" duration="403000" />
+      <workItem from="1580220677808" duration="10596000" />
     </task>
     <servers />
   </component>
