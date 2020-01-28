@@ -7,20 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2cd2ef3-11b1-4e84-9ce0-1f23fe0a06ab" name="Default Changelist" comment="Changed">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webAplikacja.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webAplikacja.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibaryHelper/LibaryHelper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryHelper/LibaryHelper.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibaryHelper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryHelper/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibaryHelper/src/main/java/Servlet_Database_Agent/AddBook_JDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryHelper/src/main/java/Servlet_Database_Agent/AddBook_JDBC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibaryHelper/src/main/java/Servlet_Database_Agent/JDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryHelper/src/main/java/Servlet_Database_Agent/JDBC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LibaryHelper/src/main/java/Servlets_Interface/AddBookInterfaceServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryHelper/src/main/java/Servlets_Interface/AddBookInterfaceServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibaryHelper/target/classes/META-INF/LibaryHelper.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibaryHelper/target/classes/Servlets_Interface/AddBookInterfaceServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryHelper/target/classes/Servlets_Interface/AddBookInterfaceServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibaryHelper/web/addBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryHelper/web/addBook.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/WEB-INF/classes/Servlets_Interface/AddBookInterfaceServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/WEB-INF/classes/Servlets_Interface/AddBookInterfaceServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/addBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/addBook.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -279,7 +267,7 @@
       <workItem from="1580044061850" duration="1991000" />
       <workItem from="1580205857675" duration="8870000" />
       <workItem from="1580220028348" duration="403000" />
-      <workItem from="1580220677808" duration="10596000" />
+      <workItem from="1580220677808" duration="10906000" />
     </task>
     <servers />
   </component>

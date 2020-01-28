@@ -26,7 +26,7 @@ public class AddBookInterfaceServlet extends HttpServlet {
             System.out.println(list[i]);
         }
 
-        if (list[0].equals("") || list[1] == null || list[2] == null || list[3] == null || list[4] == null || list[5] == null){
+        if (list[0].equals("") || list[1].equals("") || list[2].equals("") || list[3].equals("") || list[4].equals("") || list[5].equals("")){
             String info = "Żadne pole nie może pozostać puste!";
             request.setAttribute("NULL_info", info);
             request.getRequestDispatcher("addBook.jsp").forward(request, response);
