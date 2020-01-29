@@ -8,7 +8,20 @@
   <component name="ChangeListManager">
     <list default="true" id="a2cd2ef3-11b1-4e84-9ce0-1f23fe0a06ab" name="Default Changelist" comment="Changed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibaryHelper/src/main/java/Servlet_Database_Agent/AddBook_JDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryHelper/src/main/java/Servlet_Database_Agent/AddBook_JDBC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LibaryHelper/src/main/java/Servlets_Interface/AddBookInterfaceServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryHelper/src/main/java/Servlets_Interface/AddBookInterfaceServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibaryHelper/src/main/java/Servlets_Interface/AddUserInterfaceServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryHelper/src/main/java/Servlets_Interface/AddUserInterfaceServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibaryHelper/src/main/java/Servlets_Interface/RemoveUserInterfaceServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryHelper/src/main/java/Servlets_Interface/RemoveUserInterfaceServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibaryHelper/web/addUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryHelper/web/addUser.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibaryHelper/web/removeUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/LibaryHelper/web/removeUser.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/WEB-INF/classes/Servlet_Database_Agent/AddBook_JDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/WEB-INF/classes/Servlet_Database_Agent/AddBook_JDBC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/WEB-INF/classes/Servlets_Interface/AddBookInterfaceServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/WEB-INF/classes/Servlets_Interface/AddBookInterfaceServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/WEB-INF/classes/Servlets_Interface/AddUserInterfaceServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/WEB-INF/classes/Servlets_Interface/AddUserInterfaceServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/WEB-INF/classes/Servlets_Interface/RemoveUserInterfaceServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/WEB-INF/classes/Servlets_Interface/RemoveUserInterfaceServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/addUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/addUser.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/removeUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/LibaryHelper_war_exploded/removeUser.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -267,7 +280,8 @@
       <workItem from="1580044061850" duration="1991000" />
       <workItem from="1580205857675" duration="8870000" />
       <workItem from="1580220028348" duration="403000" />
-      <workItem from="1580220677808" duration="10906000" />
+      <workItem from="1580220677808" duration="11007000" />
+      <workItem from="1580281509387" duration="8406000" />
     </task>
     <servers />
   </component>

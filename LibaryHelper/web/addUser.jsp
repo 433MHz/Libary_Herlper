@@ -59,12 +59,19 @@
     </div>
     <div class="leftRightSides" style="float: left; width: 60%; padding: 1%">
         <h1>Dodaj użytkownika</h1>
-        <form action="/AddUserInterfaceServlet" method="post">
+        <form action="AddUserInterfaceServlet" method="post">
         <input type="text" placeholder="Imie" class="MainMenuTexts" name="userName"><br/>
         <input type="text" placeholder="Nazwisko" class="MainMenuTexts" name="userLastname"><br/>
         <input type="text" placeholder="Numer pesel" class="MainMenuTexts" name="userPesel"><br/>
         <input type="submit" class="MainMenuTexts" style="cursor: pointer" value="Dodaj użytkownika">
         </form>
+        <div style="font-size: 25px; color: red">
+            <%
+            if(request.getAttribute("NULL_info") != null) {
+                out.println(request.getAttribute("NULL_info"));
+            }
+            %>
+        </div>
     </div>
     <div style="clear: both"/>
 </div>
